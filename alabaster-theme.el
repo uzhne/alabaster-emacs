@@ -1,21 +1,17 @@
-;;; espresso-theme.el --- Espresso Tutti Colori port for Emacs
+;;; alabaster-theme.el -- Alabaster theme for Emacs.
 
-;; Author: Martin Kühl <purl.org/net/mkhl>
-;; URL: https://github.com/dgutov/espresso-theme
-;; Package-Version: 20130228.2348
+;; Author: Chris Etheridge (theme originally by Nikita Tonsky)
+;; URL: https://github.com/chris-etheridge/alabaster-emacs
+;; Package-Version: 20160525.0001
 ;; Version: 1.0
 
 ;;; Commentary:
 ;;
-;; Espresso Tutti Colori is the default theme for Espresso, by MacRabbit.
-;; Source: <http://macrabbit.com/espresso>
+;; Alabaster is a theme originally created by Nikita Tonsky for Light Table.
+;; Source: <https://github.com/tonsky/alabaster-lighttable-skin>
 
-;;; TODO: More faces? `list-faces-display'.
-
-(deftheme espresso
-  "Espresso Tutti Colori.
-
-Port of the default theme for Espresso on Mac OS X.")
+(deftheme Alabster
+  "Alabster skin.")
 
 (let ((selection-color (if (featurep 'ns) "ns_selection_color" "#C9D0D9"))
       (highlight-color "#EEE00A")
@@ -47,11 +43,11 @@ Port of the default theme for Espresso on Mac OS X.")
    ;; Frame
    '(fringe ((t (:background "#f7f7f7"))))
    `(mode-line ((t (:background "#e8e8e8" :foreground "black"
-                    :box (:line-width -1 :color ,border-color)))))
+                                :box (:line-width -1 :color ,border-color)))))
    '(mode-line-highlight ((t (:box (:line-width 2 :color "#9599B0")))))
    `(mode-line-inactive
      ((t (:inherit mode-line :background "#f5f5f5" :foreground "grey20"
-          :box (:line-width -1 :color ,border-color) :weight light))))
+                   :box (:line-width -1 :color ,border-color) :weight light))))
 
    ;; Parens
    `(show-paren-match ((t (:background ,passive-color))))

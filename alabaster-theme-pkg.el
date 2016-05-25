@@ -1,1 +1,1 @@
-(define-package "espresso-theme" "20130228.2348" "Espresso Tutti Colori port for Emacs" 'nil :url "https://github.com/dgutov/espresso-theme")
+(define-package "alabaster-theme" "20160525.0001" "Alabaster theme for Emacs" 'nil :url "https://github.com/chris-etheridge/alabster-emacs.git")
