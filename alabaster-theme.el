@@ -22,7 +22,7 @@
       (error-color "#F93232")
       (border-color "#a5a5a5"))
   (custom-theme-set-faces
-   'espresso
+   'alabaster
    ;; Basics
    '(default ((t (:backround "grey99"))))
    '(blue ((t (:foreground "blue"))))
@@ -108,6 +108,6 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'espresso)
+(provide-theme 'alabaster)
 
 ;;; espresso-theme.el ends here
