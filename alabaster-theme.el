@@ -10,7 +10,7 @@
 ;; Alabaster is a theme originally created by Nikita Tonsky for Light Table.
 ;; Source: <https://github.com/tonsky/alabaster-lighttable-skin>
 
-(deftheme Alabster
+(deftheme alabster
   "Alabster skin.")
 
 (let ((selection-color (if (featurep 'ns) "ns_selection_color" "#C9D0D9"))
