@@ -24,7 +24,7 @@
   (custom-theme-set-faces
    'alabaster
    ;; Basics
-   '(default ((t (:backround "grey99"))))
+   '(default ((t (:background "grey99"))))
    '(blue ((t (:foreground "blue"))))
    '(bold ((t (:bold t))))
    '(bold-italic ((t (:italic t :bold t))))
